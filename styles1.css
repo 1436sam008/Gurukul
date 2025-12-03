@@ -37,6 +37,7 @@ body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe
 .btn{background:var(--accent);color:#fff;padding:9px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:600}
 .btn.ghost{background:transparent;border:1px solid rgba(20,20,40,0.06);color:#222}
 .small{font-size:12px;color:var(--muted)}
+
 /* this has changed  */
 .status{min-width:180px;text-align:right}
 
@@ -79,7 +80,9 @@ th{color:var(--muted);font-weight:700}
 
 /* Sidebar mobile close X hidden by default */
 .sidebar-close{position:absolute; right:8px; top:8px; display:none; background:transparent; border:none; font-size:20px; cursor:pointer; color:var(--muted)}
-
+.small{
+  display:flex;
+ }
 /* Responsive mobile overlay sidebar */
 .sidebar-backdrop{ position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:10000; display:none; opacity:0; transition:opacity 200ms ease; }
 .actions{flex-direction: column;
@@ -212,3 +215,4 @@ th{color:var(--muted);font-weight:700}
 
 
   }
+
